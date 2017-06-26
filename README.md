@@ -81,6 +81,6 @@ Generates and captures a screenshot of the instance console. Very useful if the 
 * Test with more adapters instead of just rocket.chat and slack
 
 # Screenshots
-![list][ec2_list_screenshot]
+![list](https://github.com/jszaszvari/hubot-aws-v2/blob/master/ec2_console_screenshot.png?raw=true)
 
-![console][ec2_console_screenshot.png]
+![console](https://github.com/jszaszvari/hubot-aws-v2/blob/master/ec2_list_screenshot.png?raw=true)
