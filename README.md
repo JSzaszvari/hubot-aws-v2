@@ -81,6 +81,6 @@ Generates and captures a screenshot of the instance console. Very useful if the 
 * Test with more adapters instead of just rocket.chat and slack
 
 # Screenshots
-![list][ec2_list_screenshot.png]
+![list][ec2_list_screenshot]
 
 ![console][ec2_console_screenshot.png]
