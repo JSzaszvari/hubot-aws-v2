@@ -79,3 +79,8 @@ Generates and captures a screenshot of the instance console. Very useful if the 
 * Re-implement roles so that only users with a particular role can execute the commands. 
 * Fix up case sensitivty on the instance listing 
 * Test with more adapters instead of just rocket.chat and slack
+
+# Screenshots
+![list][ec2_list_screenshot.png]
+
+![console][ec2_console_screenshot.png]
