@@ -1,0 +1,21 @@
+{
+  "name": "awsbot",
+  "version": "0.0.1",
+  "private": true,
+  "author": "John Szaszvari <jszaszvari@gmail.com>",
+  "description": "DevBot",
+  "dependencies": {
+    "aws-sdk": "^2.77.0",
+    "hubot": "^2.19.0",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-help": "^0.2.0",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-rocketchat": "^1.0.8",
+    "hubot-slack": "^4.3.4",
+    "moment": "^2.18.1",
+    "tsv": "^0.2.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
