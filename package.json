@@ -4,6 +4,10 @@
   "private": false,
   "author": "John Szaszvari <jszaszvari@gmail.com>",
   "description": "hubot-aws-v2",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/jszaszvari/hubot-aws-v2.git"
+  },
   "dependencies": {
     "aws-sdk": "^2.77.0",
     "hubot": "^2.19.0",
@@ -17,5 +21,9 @@
   },
   "engines": {
     "node": "0.10.x"
-  }
+  },
+    "bugs": {
+    "url": "https://github.com/jszaszvari/hubot-aws-v2/issues"
+  },
+  "homepage": "https://github.com/jszaszvari/hubot-aws-v2"
 }
