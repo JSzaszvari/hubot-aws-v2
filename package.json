@@ -1,9 +1,9 @@
 {
-  "name": "awsbot",
+  "name": "hubot-aws-v2",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "author": "John Szaszvari <jszaszvari@gmail.com>",
-  "description": "DevBot",
+  "description": "hubot-aws-v2",
   "dependencies": {
     "aws-sdk": "^2.77.0",
     "hubot": "^2.19.0",
