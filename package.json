@@ -1,6 +1,6 @@
 {
   "name": "hubot-aws-v2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "author": "John Szaszvari <jszaszvari@gmail.com>",
   "description": "hubot-aws-v2",
