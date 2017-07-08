@@ -1,13 +1,14 @@
 # Description:
-#   List ec2 instances info
-#   Show detail about an instance if specified an instance id
-#   Filter ec2 instances info if specified an instance name
+#   List ec2 instances on your AWS account.  
 #
 # Commands:
-#   hubot ec2 ls - Displays Instances
+#   hubot ec2 ls <search_filter> - Displays Instances
 
 # Notes:
-#   --instance_filter=*** : [optional] The name to be used for filtering return values by an instance name.
+#   <search_filter>: [optional] The name to be used for filtering the returned instances by instance name.
+#
+# Author:
+#   John Szaszvari <jszaszvari@gmail.com>
 
 moment = require 'moment'
 util   = require 'util'
