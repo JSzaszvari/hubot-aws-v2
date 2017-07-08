@@ -1,29 +1,55 @@
 {
   "name": "hubot-aws-v2",
-  "version": "0.0.2",
-  "private": false,
+  "description": "Hubot script to manage your AWS environment in a visually appealing and functional way. ",
+  "version": "0.0.3",
   "author": "John Szaszvari <jszaszvari@gmail.com>",
-  "description": "hubot-aws-v2",
-   "repository": {
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "amazon-web-services",
+    "amazon",
+    "chatops"
+  ],
+  "repository": {
     "type": "git",
-    "url": "https://github.com/jszaszvari/hubot-aws-v2.git"
+    "url": "git://github.com/hubot-scripts/hubot-aws-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-aws-v2/issues"
   },
   "dependencies": {
-    "aws-sdk": "^2.77.0",
-    "hubot": "^2.19.0",
+    "aws-sdk": "^2.82.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-help": "^0.2.0",
     "hubot-redis-brain": "0.0.3",
-    "hubot-rocketchat": "^1.0.8",
-    "hubot-slack": "^4.3.4",
     "moment": "^2.18.1",
     "tsv": "^0.2.0"
   },
-  "engines": {
-    "node": "0.10.x"
+  "peerDependencies": {
+    "hubot": "2.x"
   },
-    "bugs": {
-    "url": "https://github.com/jszaszvari/hubot-aws-v2/issues"
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "coffee-script": "1.6.3",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-mocha-test": "~0.12.7",
+    "grunt-release": "~0.11.0",
+    "hubot": "2.x",
+    "hubot-test-helper": "^1.3.0",
+    "hubot-rocketchat": "^1.0.8",
+    "matchdep": "~0.3.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0"
   },
-  "homepage": "https://github.com/jszaszvari/hubot-aws-v2"
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "homepage": "https://github.com/hubot-scripts/hubot-aws-v2#readme",
+  "directories": {
+    "test": "test"
+  }
 }

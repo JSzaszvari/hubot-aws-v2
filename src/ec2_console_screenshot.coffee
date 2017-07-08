@@ -2,20 +2,27 @@
 #   Get a console screenshot for the specified instance id
 #
 # Configuration:
-#   HUBOT_AWS_ACCESS_KEY_ID:
-#   HUBOT_AWS_SECRET_ACCESS_KEY:
-#   HUBOT_AWS_REGION:
+#   HUBOT_AWS_ACCESS_KEY_ID
+#   HUBOT_AWS_SECRET_ACCESS_KEY
+#   HUBOT_AWS_REGION
+#   HUBOT_AWS_S3_BUCKET
+#   HUBOT_AWS_S3_URL
 #
 # Commands:
 #   hubot ec2 console <instance_id> - Retreive a screenshot of a running instance to help with troubleshooting.
 #
 # Notes:
-# You'll need to configure the below 2 variables to suit your environment.
+#   You'll need to configure the above environment variables for your environment.
 #
-# The S3Bucket Var is the 'short name'. Used to identify which bucket s3.putObject will upload too.
+#   The S3Bucket Var is the 'short name'. Used to identify which bucket s3.putObject will upload too. eg - 'my-bucket'
 #
-# The FullS3URL is the full URL of where the files will live in the bucket. Used to build the URL
-# as the URL is not returned when you upload a file.
+#   The FullS3URL is the full URL of where the files will live in the bucket. Used to build the URL
+#   as the URL is not returned when you upload a file. - eg - 'https://s3-ap-southeast-2.amazonaws.com/my-bucket/'
+#  
+# Author:
+#   John Szaszvari <jszaszvari@gmail.com>
+#
+
 S3Bucket = process.env.HUBOT_AWS_S3_BUCKET
 FullS3URL = process.env.HUBOT_AWS_S3_URL
 
