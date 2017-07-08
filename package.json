@@ -5,6 +5,8 @@
   "author": "John Szaszvari <jszaszvari@gmail.com>",
   "license": "MIT",
   "keywords": [
+    "hubot-scripts",
+    "hubot",
     "aws",
     "amazon-web-services",
     "amazon",
