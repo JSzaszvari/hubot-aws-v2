@@ -1,7 +1,7 @@
 {
   "name": "hubot-aws-v2",
   "description": "Hubot script to manage your AWS environment in a visually appealing and functional way. ",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "John Szaszvari <jszaszvari@gmail.com>",
   "license": "MIT",
   "keywords": [
