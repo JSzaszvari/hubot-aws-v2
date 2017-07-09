@@ -1,7 +1,7 @@
 {
   "name": "hubot-aws-v2",
   "description": "Hubot script to manage your AWS environment in a visually appealing and functional way. ",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "John Szaszvari <jszaszvari@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-aws-v2.git"
+    "url": "git://github.com/jszasvari/hubot-aws-v2.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-aws-v2/issues"
+    "url": "https://github.com/jsaszvari/hubot-aws-v2/issues"
   },
   "dependencies": {
     "aws-sdk": "^2.82.0",
@@ -53,7 +53,7 @@
   "scripts": {
     "test": "grunt test"
   },
-  "homepage": "https://github.com/hubot-scripts/hubot-aws-v2#readme",
+  "homepage": "https://github.com/jszaszvari/hubot-aws-v2#readme",
   "directories": {
     "test": "test"
   }
